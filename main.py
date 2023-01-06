@@ -28,7 +28,7 @@ def get_candidate(pk):
     result += '<br>'
 
     return f'''
-        <img scr="{candidate['picture']}">
+        <img src = "{candidate["picture"]}">
         <pre> {result} </pre>
     '''
 
